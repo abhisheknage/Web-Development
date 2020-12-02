@@ -1,0 +1,173 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+h1,h2{
+  margin: 0.3em 0;
+}
+p{
+  margin: 10px 0;
+}
+h6{
+  margin: 10px 0;
+}
+ul{
+  margin: 0;
+  height: 32px;
+  line-height: 32px;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  background-color: black;
+  color: white;
+}
+header *{
+  color:white;
+}
+
+footer {
+
+}
+nav{
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: justify;
+}
+nav a{
+  padding: 0 20px;
+  text-decoration: none;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  width: auto;
+}
+form{
+  display: inline-block;
+  color: black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.logo{
+  width: 100px;
+  height:32px;
+  line-height: 32px;
+}
+.sign-in{
+  min-width: 8.62em;
+}
+
+.introduction{
+  color: rgba(74, 74, 74, 1);
+}
+.date{
+  color: rgba(140, 140, 140, 1);
+}
+.content{
+  max-width: 80rem;
+  margin: 0 auto;
+  /* position: relative; */
+}
+.content-main{
+  background-image: url("../assets/content-main-img.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 400px;
+  float: left;
+  border: 10px solid white;
+  border-left: none;
+  position: relative;
+}
+
+.content-text{
+  position: absolute;
+  bottom: 0;
+  border: none;
+  padding: 0 8px 0 8px;
+}
+/* .content-main > *{
+  vertical-align: bottom; */
+  /* color: orange;
+  display: inline-block;
+  width: 100%;
+  vertical-align: bottom;
+  position: absolute;
+  bottom: 0px;
+
+} */
+.introduction{
+  float: left;
+}
+.date{
+  float: right;
+}
+section h1, section p, section, h6{
+  color: white;
+}
+.content-sub{
+  /* display: inline-block; */
+  width: 50%;
+  float: right;  
+}
+
+.content-sub > section{
+  width: 50%;
+  float: left;
+  height: 200px;
+  background-size: cover;
+  border: 10px solid white;
+  position: relative;
+}
+.content-sub > section:nth-child(2n){
+  border-right:none;
+}
+.content-bottom{
+  max-width: 80rem;
+  margin: 0 auto;
+  clear: both;
+}
+.content-bottom *{
+  color: black;
+}
+.content-bottom > section{
+  border: 5px solid white;
+  width: 33.3333%;
+  float: left;
+}
+.content-bottom > section:first-of-type{
+  border-left: none;
+}
+.content-bottom > section:last-of-type{
+  border-right: none;
+}
+.content-bottom img{
+  width: 100%;
+  height: auto;
+}

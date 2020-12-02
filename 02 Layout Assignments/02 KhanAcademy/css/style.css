@@ -1,0 +1,108 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+header{
+  border-bottom: 2px solid grey;
+  position: relative;
+}
+
+a, a:hover{
+  text-decoration: none;
+  color: blue;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  position: relative;
+
+}
+
+footer {
+  /* clear: both; */
+  text-align: center;
+}
+ul{
+  color: blue;
+}
+ul li{
+  float: left;
+  width: 10%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+button{
+  background-color:rgba(44, 102, 233, 1);
+  color: white;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  padding: 0 16px 0 16px;
+  align-items: center;
+  cursor: pointer;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+li.right-side{
+  float: right;
+}
+.logo{
+  font-size: 2.25rem;  
+  position: absolute;
+  left: 50%;
+  /* top: 50%; */
+  width: 323px;
+  transform: translateX(-50%);
+  transform: translate(-50%,-25%);
+  margin: 0;
+  /* padding: 50px; */
+
+}
+.content{
+  max-width: 80%;
+  padding: auto;
+  /* margin-top: 200px; */
+  margin: 100px auto 0 auto;
+  position: relative;
+}
+.content-left{
+  width: 50%;
+  float: left;
+}
+.content-left>img{
+  width: 100%;
+  height: auto;
+}
+.content-right{
+  /* position: absolute; */
+  width: 50%;
+  float: right;
+  /* left: 50%; */
+}
