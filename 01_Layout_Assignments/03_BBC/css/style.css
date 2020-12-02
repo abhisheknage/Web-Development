@@ -96,7 +96,7 @@ form{
   /* position: relative; */
 }
 .content-main{
-  background-image: url("../assets/content-main-img.jpg");
+  background-image: url("/assets/content-main-img.jpg");
   background-size: cover;
   width: 50%;
   height: 400px;
