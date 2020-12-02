@@ -13,4 +13,4 @@ I plan to learn Node.js, Postgres, and React.js
 
 Some of my website are as follows:
 
-[Tech Crunch](/01_Layout_Assignments/01_TechCrunch/index.html/)
+[Tech Crunch](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/01_TechCrunch/index.html)
