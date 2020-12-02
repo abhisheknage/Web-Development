@@ -11,3 +11,4 @@ I plan to learn Node.js, Postgres, and React.js
 - I love meeting and connecting with people from developers all over the world, so feel free to send me a message! You can reach me at abhishek.nage@gmail.com
 
 
+<a href = "/01_Layout_Assignments/01_TechCrunch/index.html/>Tech Crunch</a>
