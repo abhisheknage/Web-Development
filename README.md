@@ -8,7 +8,7 @@ I'm currently part of a 30 weeks Virtual Bootcamp - #100DevsBootcamp
 I plan to learn Node.js, Postgres, and React.js
 
 # Send me a message
-- I love meeting and connecting with people from developers all over the world, so feel free to send me a message! You can reach me at abhishek.nage@gmail.com
+- I love meeting and connecting with developers from all over the world, so feel free to send me a message! You can reach me at abhishek.nage@gmail.com
 
 
 Some of the sample mock-up website, I've created are as follows (in increasing complexity):
