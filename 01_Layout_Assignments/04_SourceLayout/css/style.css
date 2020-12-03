@@ -36,16 +36,18 @@ p{
 /******************************************
 /* LAYOUT
 /*******************************************/
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/******************************************
+/* HEADER STYLES
+/*******************************************/
 header {
   /* display: inline; */
   text-align: justify;
   background-color: rgba(245, 249, 252, 1);
   padding: 0 20px;
   
-}
-
-footer {
-
 }
 a{
   text-decoration: none;
@@ -57,9 +59,56 @@ button{
   border: none;
   padding: 3px 10px;
 }
+nav{
+  width: 100%;
+  position: relative;
+}
+nav *{
+  display: inline-block;
+  
+}
+.company-name{
+  margin: 0px;
+}
+button{
+  background-color: darkblue;
+  color: white;
+}
 
+.tagline{
+  float: left;
+  width: 30%;
+  /* display: inline-block; */
+}
+.tagline > p:first-of-type{
+  text-transform: uppercase;
+}
+.nav-links{
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.nav-button{
+  position: absolute;
+  top:15%;
+  right: 0px;
+  vertical-align: auto;
+  margin:auto;
+}
+@media (max-width: 600px){
+  header button, header a{
+    visibility: hidden;
+  }
+  .company-name{
+    text-align: center;
+    width: 100%;
+  }
+
+}
 /******************************************
-/* ADDITIONAL STYLES
+/* CONTENT-MAIN STYLES
 /*******************************************/
 .content-main{
   padding: 50px 0 50px 100px;
@@ -76,30 +125,23 @@ button{
   height: auto;
   /* object-fit: cover; */
   /* margin: 500 0 50 50; */
-
-
 }
-nav{
-  width: 100%;
-  position: relative;
-}
-nav *{
-  display: inline-block;
-  
-}
-button{
-  background-color: darkblue;
-  color: white;
+@media (max-width:600px){
+  .content-main{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .content-main > section{
+    width: 100%;
+  }
+  .tagline form input, .tagline form button{
+    width: 100%;
+  }
 }
 
-.tagline{
-  float: left;
-  width: 30%;
-  /* display: inline-block; */
-}
-.tagline > p:first-of-type{
-  text-transform: uppercase;
-}
+/******************************************
+/* SECTION-CARDS STYLES
+/*******************************************/
 .section-cards{
   clear: both;
   background-color: rgba(245, 249, 252, 1);
@@ -115,11 +157,25 @@ button{
   padding: 0px;
   margin: 0px;
 }
+@media (max-width:600px){
+  .section-cards{
+    padding-left:10px;
+    padding-right:10px;
+    
+  }
+  .cards{
+    width: 100%;
+    border-bottom:1px solid grey;
+  }
+}
+/******************************************
+/* COLLECTING-INFO STYLES
+/*******************************************/
 .collecting-container{
   padding: 0px;
 }
 .collecting-info{
-  margin-top: 40px;
+  /* margin-top: 40px; */
   background-color: white;
   margin: 10px 0px 0px 100px;
   width: 50%;
@@ -128,24 +184,9 @@ button{
   color: rgba(48, 70, 89, 1);
 }
 
-.nav-links{
-  margin:auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-.nav-button{
-  position: absolute;
-  top:15%;
-  right: 0px;
-  vertical-align: auto;
-  margin:auto;
-}
-.company-name{
-  margin: 0px;
-}
-
-@media screen and (max-width=400px){
-
+@media (max-width:600px){
+  .collecting-info{
+    margin:10px 10px 0 10px;
+    width: 98%;
+  }
 }
