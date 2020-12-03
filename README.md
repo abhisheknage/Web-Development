@@ -13,7 +13,7 @@ I plan to learn Node.js, Postgres, and React.js
 Reach out to me at abhishek.nage@gmail.com
 
 
-Some of the sample mock-up website, I've created are as follows (in increasing complexity):
+Some of the sample mock-up website I've created are as follows (in increasing complexity):
 
 - [Tech Crunch](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/01_TechCrunch/index.html)
 - [Khan Academy](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/02_KhanAcademy/index.html)
