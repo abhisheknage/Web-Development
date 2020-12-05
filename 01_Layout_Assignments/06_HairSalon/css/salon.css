@@ -75,7 +75,7 @@ nav ol li{
 /*******************************************/
 .content-main {
   /* background:rgb(218, 163, 163); */
-  background: url("../assets/george-bohunicky.jpg");
+  background: url("/assets/george-bohunicky.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
