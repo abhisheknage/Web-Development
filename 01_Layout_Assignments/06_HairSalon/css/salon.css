@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+body {
+  /* margin: none; */
+  /* padding: none; */
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: black;
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+}
+/******************************************
+/* HEADER STYLE
+/*******************************************/
+header{
+  position: relative;
+}
+nav{
+  height:30px;
+}
+nav * {
+  list-style: none;
+  float: left;
+
+  padding: 5px 10px;
+  background: white;
+  color: black;
+  font-size: 10px;
+}
+header img{
+  float: left;
+  height:30px;
+  width: auto;
+}
+
+nav ol{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+  padding: 0;
+  margin: 0;
+  height: 30px;
+}
+nav ol li{
+  padding:0;
+  margin:0;
+}
+.book-online{
+  float: right;
+}
+/******************************************
+/* CONTENT-MAIN STYLES
+/*******************************************/
+.content-main {
+  /* background:rgb(218, 163, 163); */
+  background: url("../assets/george-bohunicky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+
+.content-main-info {
+  float:left;
+  height: 300px;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 5%;
+  color: white;
+}
+
+.content-main-info h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: black;
+}
+.content-main-info p{
+  color: black;
+}
+
+
+.content-main-info > span {
+  font-size: 10px;
+}
+
+.content-main-book {
+  float:left;
+  margin-left: 10%;
+  background: black;
+  color: white;
+  height: 220px;
+  width: 20%;
+  padding: 2%;
+}
+
+.content-main-book button {
+  background: white;
+  color: black;
+  font-size: 10px;
+  margin: 10%;
+  padding: 10px;
+}
+
+
+
+/******************************************
+/* CONTENT-CARDS STYLES
+/*******************************************/
+.content-cards {
+  background: white;
+  color: black;
+  width: 80%;
+  margin: 75px auto;
+  text-align: center;
+  
+}
+.card {
+  float:left;
+  width: 33.333%;
+  padding: 0 20px;
+}
+.card:first-of-type{
+  padding-left: 0px;
+}
+.card:last-of-type{
+  padding-right: 0px;
+}
+
+.card p {
+  font-size: 10px;
+}
+
+.card img {
+  height: 125px;
+  width: 125px;
+}
+
+/******************************************
+/* CONTENT-BLOG STYLES
+/*******************************************/
+.content-blog {
+  background: lightgrey;
+  height: 100%;
+  width: 100%;
+  /* margin: 0 0; */
+  padding: 75px 10%;
+  clear: both;
+}
+.content-blog-info {
+  float: left;
+  width: 50%;
+  padding-right: 5%;
+  text-align: left;
+}
+.content-blog img{
+  padding: 0;
+  float: right;
+  width: 50%;
+}
+
+/******************************************
+/* CENTER STYLE - AFFECTS ALL THE BELOW SECTIONS
+/*******************************************/
+.center {
+  /* float: left; */
+  width: 80%;
+  margin: 0 10%;
+  text-align: center;
+}
+.center-padding{
+  padding: 0 auto;
+}
+.center-margin{
+  margin: 0 auto;
+}
+/******************************************
+/* CONTENT-PERSONNEL STYLES
+/*******************************************/
+.content-personnel {
+  width: 100%;
+  margin: 75px auto;
+  margin-bottom:0;
+  position: relative;
+}
+.content-personnel img{
+  /* margin:0 auto; */
+  width: 29%;
+  
+}
+.content-personnel .image1{
+  float: left;
+}
+.content-personnel .image2{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.content-personnel .image3{
+  float: right;
+}
+/******************************************
+/* CONTENT-PROMOTION STYLES
+/*******************************************/
+.content-promotion {
+  height: 400px;
+  width: 100%;
+  margin: 75px auto;
+  position: relative;
+  float: left;
+  background-color: rgb(237, 237, 237);
+}
+.content-promotion .info{
+  float: left;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: left;
+  padding-left: 50px;
+}
+.content-promotion .info p{
+  margin:0px;
+}
+.content-promotion .img img{
+  float: right;
+  height: 400px;
+  width: auto;
+}
+/******************************************
+/* CONTENT-LOOKBOOK STYLES
+/*******************************************/
+.content-lookbook{
+  clear: both;
+}
+.content-lookbook h2{
+  padding-bottom:21.5px;
+  margin:0;
+}
+.content-lookbook img{
+  display: block;
+}
+.content-lookbook .line{
+  display: block;
+  margin: 0 auto;
+  padding-bottom:32.5px;
+}
+.content-lookbook .image{
+  width: 100%;
+}

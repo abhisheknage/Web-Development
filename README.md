@@ -20,5 +20,6 @@ Some of the sample mock-up website I've created are as follows (in increasing co
 - [BBC](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/03_BBC/index.html)
 - [Source Layouts](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/04_SourceLayout/index.html)
 - [Level Ground](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/05_LevelGroundLayout/index.html)
+- [Hair Salon](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/06_HairSalon/index.html)
 
 There are more webpages to come. Stay tuned!!
