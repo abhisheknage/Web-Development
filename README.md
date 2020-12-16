@@ -5,7 +5,7 @@ I'm currently part of a 30 weeks Virtual Bootcamp - #100DevsBootcamp
 
 
 # What am I learning next?
-I plan to learn Node.js, Postgres, and React.js
+I plan to learn React.js, Node.js, and Postgres.
 
 # Send me a message
 - I love meeting and connecting with developers from all over the world, so how how about we meet up for a coffee chat.
