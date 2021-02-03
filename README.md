@@ -19,7 +19,11 @@ Some of the sample mock-up website I've created are as follows (in increasing co
 - [Khan Academy](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/02_KhanAcademy/index.html)
 - [BBC](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/03_BBC/index.html)
 - [Source Layouts](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/04_SourceLayout/index.html)
-- [Level Ground](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/05_LevelGroundLayout/index.html)
-- [Hair Salon](https://htmlpreview.github.io/?https://github.com/abhisheknage/Web-Development/blob/main/01_Layout_Assignments/06_HairSalon/index.html)
+- [Level Ground](https://nage-level-ground.netlify.app/)
+- [Hair Salon](https://nage-hair-salon.netlify.app)
+
+- [My own calculator app](https://nage-calculator-app.netlify.app/)
+- [Horoscope App](https://nage-horoscope.netlify.app/)
+
 
 There are more webpages to come. Stay tuned!!
